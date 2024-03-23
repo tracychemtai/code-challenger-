@@ -37,3 +37,6 @@ Write a program whose major task is to calculate an individual’s Net Salary by
 - HTML
 - CSS
 - JavaScript
+
+## Copyright and Licensing Information
+© 2024 Tracy Chemtai. All rights reserved.
