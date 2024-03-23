@@ -1,3 +1,4 @@
+// creates a function to get points
 function getPoints() {
   let speed = parseInt(document.getElementById("speed").value, 10) || 0;
 
@@ -5,7 +6,7 @@ function getPoints() {
     alert("License Suspended");
     return; // Exit the function early if marks are invalid
   }
-
+//Calculates points deduction
   let points =
     speed> 131
       ? "Points : 12 "
@@ -35,5 +36,5 @@ function getPoints() {
       "Points : 1 ":
       "ok";
 
-      document.getElementById("result").innerText = `Your Points: ${speed} is: ${points}`;
-      }
+      document.getElementById("result").innerText = `Your Points: ${speed} is: ${points}`;
+    }
