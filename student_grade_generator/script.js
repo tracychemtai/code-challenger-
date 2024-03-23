@@ -1,3 +1,4 @@
+//Creates a function 
 function getGrade(marks) {
     marks = parseInt(document.getElementById('marks').value, 10) || 0;
 

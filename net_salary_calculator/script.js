@@ -1,3 +1,4 @@
+// Creates a function to calculate the nate salary
 function calculateNetSalary() {
     const basicSalary = parseFloat(document.getElementById('basicSalary').value);
     const benefits = parseFloat(document.getElementById('benefits').value);
@@ -55,12 +56,12 @@ function calculateNetSalary() {
     // Calculate net salary
     const netSalary = grossSalary - tax - nhifDeductions - nssfDeductions;
 
-    // Display the result
+    // Shows the result
     document.getElementById('result').innerHTML = `
         <p>Gross Salary: ${grossSalary.toFixed(2)}</p>
         <p>Tax: ${tax.toFixed(2)}</p>
         <p>NHIF Deductions: ${nhifDeductions.toFixed(2)}</p>
         <p>NSSF Deductions: ${nssfDeductions.toFixed(2)}</p>
         <p>Net Salary: ${netSalary.toFixed(2)}</p>
-    `;
+`;
 }
