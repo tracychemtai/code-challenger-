@@ -1,4 +1,4 @@
-// Creates a function to calculate the nate salary
+// Creates a function to calculate the net salary
 function calculateNetSalary() {
     const basicSalary = parseFloat(document.getElementById('basicSalary').value);
     const benefits = parseFloat(document.getElementById('benefits').value);
