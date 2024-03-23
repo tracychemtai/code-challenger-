@@ -33,3 +33,7 @@ Write a program whose major task is to calculate an individual’s Net Salary by
 - Basic understanding of JavaScript/ HTML
 - Visual Studio Code as your code editor
 
+## Languages Used 
+- HTML
+- CSS
+- JavaScript
